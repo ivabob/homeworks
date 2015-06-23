@@ -1,8 +1,13 @@
 <?php
-print 'Current date is:';
-print date('d.m.y');
-print "</br>";
-print 'It is:';
-print date('h:i');
-print "</br>";
+	$a1 = 6; 
+	$a2 = 7; 
+	$a3 = 0; 
+	$a4 = 5; 
+	$a5 = 0; 
+	$a6 = 8; 
+	$a7 = 2; 
+	$a8 = 0; 
+	$a9 = 3; 
+	$a10 = ($a1*2)+($a2*4)+($a3*8)+($a4*5)+($a5*10)+($a6*9)+($a7*7)+($a8*3)+($a9*6);
+    echo number_format($a10%11);
 ?>
