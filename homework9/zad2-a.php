@@ -26,8 +26,8 @@ if (mysqli_num_rows($res) > 0) {
 		echo "<td> $row[date_of_birth]</td>";
 		echo "<td> $row[weight] </td>";
 		echo "<td> $row[status] </td>";
-		echo "<td> <a href='zad2-c.php'><button class='btn btn-large btn-warning' type='button'> Update </button> </a> </td>";
-		echo "<td> <a href='zad2-d.php'><button class='btn btn-large btn-primary' type='button'> Delete </button></a> </td>";
+		echo "<td> <a href='zad2-c.php?id=$row[id]'><button class='btn btn-large btn-warning' type='button'> Update </button> </a> </td>";
+		echo "<td> <a href='zad2-d.php?id=$row[id]'><button class='btn btn-large btn-primary' type='button'> Delete </button></a> </td>";
 	}
 }
 
